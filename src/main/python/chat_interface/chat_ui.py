@@ -1,5 +1,5 @@
 import tkinter as tk
-from chat_bot import get_response
+from src.main.python.chat_interface.chat_bot import get_response
 
 
 class ChatInterface:
@@ -15,6 +15,9 @@ class ChatInterface:
 
         self.entry_box = tk.Text(root, bd=0, bg="white", width=29, height=5, font=("Arial", 12))
 
+        root.bind('<Return>', lambda event: self.send_message())
+
+        # Button definition remains the same
         self.send_button = tk.Button(root, text="Send", width=12, height=5, bd=0, bg="#32de97",
                                      activebackground="#3c9d9b", fg='#ffffff', command=self.send_message)
 
