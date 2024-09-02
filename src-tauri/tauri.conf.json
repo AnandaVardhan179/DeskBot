@@ -1,0 +1,21 @@
+{
+  "build": {
+    "beforeDevCommand": "npm start",
+    "beforeBuildCommand": "npm run build",
+    "devPath": "http://localhost:3000",
+    "distDir": "../build"
+  },
+  "package": {
+    "productName": "DeskBot",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "title": "DeskBot",
+        "width": 800,
+        "height": 600
+      }
+    ]
+  }
+}

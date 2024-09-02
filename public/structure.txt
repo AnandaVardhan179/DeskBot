@@ -1,0 +1,54 @@
+src/
+│
+├── assets/               # Static assets like images, icons, logos
+│   ├── icons/
+│   ├── images/
+│   └── styles/
+│
+├── components/           # Reusable UI components
+│   ├── AuthButton/       # Button components for Google, Twitter, etc.
+│   │   ├── AuthButton.js
+│   │   ├── AuthButton.css
+│   │   └── AuthButton.test.js
+│   │
+│   ├── InputField/       # Reusable input fields
+│   │   ├── InputField.js
+│   │   ├── InputField.css
+│   │   └── InputField.test.js
+│   │
+│   ├── Header/           # Header component used in the dashboard
+│   │   ├── Header.js
+│   │   ├── Header.css
+│   │   └── Header.test.js
+│   │
+│   ├── Navbar/           # Navbar component for the dashboard
+│   │   ├── Navbar.js
+│   │   ├── Navbar.css
+│   │   └── Navbar.test.js
+│   │
+│   └── ...               # Additional reusable components
+│
+├── pages/                # Page-level components
+│   ├── Login/            # Pages related to login and authentication
+│   │   ├── LoginPage.js      # Main login page
+│   │   ├── LoginPage.css
+│   │   ├── AuthChoice.js     # Page showing Google and Twitter auth options
+│   │   ├── AuthChoice.css
+│   │   └── AuthChoice.test.js
+│   │
+│   ├── Dashboard/        # Dashboard page after logging in
+│   │   ├── Dashboard.js
+│   │   ├── Dashboard.css
+│   │   └── Dashboard.test.js
+│   │
+│   ├── NotFound.js       # 404 Not Found page (optional)
+│   └── ...
+│
+├── services/             # API calls, authentication logic, etc.
+│   ├── auth.js           # Authentication-related services (e.g., OAuth)
+│   └── api.js            # General API utilities
+│
+├── App.js                # Main App component that routes pages
+├── App.css               # Global styles for the app
+├── index.js              # Entry point of the app
+└── index.css             # Global CSS (if any)
