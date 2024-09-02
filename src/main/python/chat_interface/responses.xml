@@ -1,0 +1,23 @@
+<responses>
+    <response>
+        <key>hello</key>
+        <value>Hello! How can I assist you today?</value>
+    </response>
+    <response>
+        <key>hi</key>
+        <value>Hello! How can I assist you today?</value>
+    </response>
+    <response>
+        <key>how are you</key>
+        <value>I'm just a bot, but I'm here to help you!</value>
+    </response>
+    <response>
+        <key>macro</key>
+        <value>You can create and run macros by saying 'run macro' followed by the macro name.</value>
+    </response>
+    <response>
+        <key>note</key>
+        <value>You can take notes by saying 'create note' followed by your note content.</value>
+    </response>
+
+</responses>
